@@ -1,0 +1,193 @@
+/**
+ * Admin Styles for Custom Affiliate Link Manager
+ */
+
+.calm-dashboard {
+	background: #f5f7fa;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.calm-dashboard-title {
+	font-size: 28px;
+	font-weight: 600;
+	color: #1a202c;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #e2e8f0;
+	padding-bottom: 10px;
+}
+
+.calm-dashboard-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.calm-dashboard-card {
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: transform 0.2s ease;
+}
+
+.calm-card-header {
+	background: #0073aa;
+	padding: 15px 20px;
+	border-bottom: 1px solid #e2e8f0;
+}
+
+.calm-card-header h2 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.calm-card-body {
+	padding: 20px;
+}
+
+.calm-card-body p {
+	margin: 10px 0;
+	font-size: 14px;
+	color: #4a5568;
+	line-height: 1.5;
+}
+
+.calm-label {
+	font-weight: 600;
+	color: #2d3748;
+	display: inline-block;
+	width: 120px;
+}
+
+.calm-card-body a {
+	color: #0073aa;
+	text-decoration: none;
+}
+
+.calm-card-body a:hover {
+	text-decoration: underline;
+}
+
+/* Meta Box Styles */
+.calm-meta-box {
+	display: flex;
+	gap: 20px;
+}
+
+.calm-tabs {
+	width: 200px;
+	border-right: 1px solid #ddd;
+}
+
+.calm-tabs ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.calm-tabs li {
+	padding: 10px 15px;
+	cursor: pointer;
+	border-bottom: 1px solid #eee;
+	transition: background 0.2s;
+}
+
+.calm-tabs li:hover {
+	background: #f0f0f0;
+}
+
+.calm-tabs li.active {
+	background: #0073aa;
+	color: #fff;
+}
+
+.calm-tab-content {
+	flex: 1;
+	padding: 10px;
+}
+
+.calm-section {
+	margin-bottom: 20px;
+}
+
+.calm-section label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.calm-section input[type="text"],
+.calm-section input[type="url"],
+.calm-section input[type="date"],
+.calm-section select,
+.calm-section textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.calm-pretty-link {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.calm-pretty-link input {
+	flex: 1;
+}
+
+.calm-status-active { color: #46b450; font-weight: bold; }
+.calm-status-inactive { color: #dc3232; font-weight: bold; }
+
+/* Analytics Grid */
+.calm-analytics-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	margin: 20px 0;
+}
+
+.calm-stat-card {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.calm-stat-card h3 {
+	margin: 0 0 10px 0;
+	color: #666;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.calm-stat-number {
+	font-size: 32px;
+	font-weight: bold;
+	color: #0073aa;
+}
+
+@media (max-width: 782px) {
+	.calm-meta-box {
+		flex-direction: column;
+	}
+	.calm-tabs {
+		width: 100%;
+		border-right: none;
+		border-bottom: 1px solid #ddd;
+	}
+	.calm-tabs ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.calm-tabs li {
+		flex: 1;
+		text-align: center;
+	}
+}
