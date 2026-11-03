@@ -1,5 +1,7 @@
 # Custom Affiliate Link Manager
 
+![Custom Affiliate Link Manager](assets/images/banner.jpg)
+
 A powerful WordPress plugin to **manage, cloak, and track affiliate links** professionally — create clean "pretty links", redirect them with full control, and see exactly how they perform. No external APIs required for core features.
 
 ![Version](https://img.shields.io/badge/version-1.1.1-blue) ![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-21759B) ![License](https://img.shields.io/badge/license-GPL--2.0-green)
@@ -25,6 +27,30 @@ A powerful WordPress plugin to **manage, cloak, and track affiliate links** prof
 2. Activate **Custom Affiliate Link Manager** from the **Plugins** menu in WordPress
 3. Go to **Affiliate Links → Add New Affiliate Link**, enter a title and the target URL, and publish
 4. Share your pretty link — clicks and redirects are handled automatically
+
+## 📸 Screenshots
+
+**Dashboard** — plugin overview with quick stats:
+
+![Dashboard](assets/images/screenshot-dashboard.png)
+
+**All Links** — every link with its pretty URL, clicks, and status:
+
+![All Links](assets/images/screenshot-all-links.png)
+
+**Edit Link** — tabbed settings (Basic, Advanced, Analytics, Geo-Targeting, A/B Testing), link status, and QR code:
+
+![Edit Link](assets/images/screenshot-edit-link.png)
+
+**Analytics & Reports:**
+
+![Analytics](assets/images/screenshot-analytics.png)
+
+**Settings:**
+
+![Settings](assets/images/screenshot-settings.png)
+
+_More screenshots (Add New, Export/Import, Health Check) are in the [assets/images](assets/images) folder._
 
 ## 📝 Changelog
 
