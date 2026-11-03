@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Custom Affiliate Link Manager - Documentation</title>
+	<style>
+		body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background: #f9f9f9; }
+		.container { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+		h1 { color: #0073aa; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+		h2 { color: #23282d; margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+		h3 { color: #0073aa; }
+		code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: monospace; }
+		pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; }
+		.note { background: #fff9e6; border-left: 4px solid #ffb900; padding: 15px; margin: 20px 0; }
+		.footer { margin-top: 50px; text-align: center; font-size: 0.9em; color: #666; }
+		ul { padding-left: 20px; }
+		li { margin-bottom: 10px; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Custom Affiliate Link Manager</h1>
+		<p>Welcome to the documentation for Custom Affiliate Link Manager. This guide will help you install, configure, and use the plugin effectively.</p>
+
+		<h2>1. Introduction</h2>
+		<p>Custom Affiliate Link Manager is a professional WordPress plugin designed to help you manage, cloak, and track your affiliate links. It provides a clean interface to create "pretty links" that are easy to share and track.</p>
+
+		<h2>2. Installation</h2>
+		<ol>
+			<li>Download the plugin ZIP file.</li>
+			<li>Log in to your WordPress admin dashboard.</li>
+			<li>Go to <strong>Plugins > Add New</strong>.</li>
+			<li>Click <strong>Upload Plugin</strong> and select the ZIP file.</li>
+			<li>Click <strong>Install Now</strong> and then <strong>Activate</strong>.</li>
+		</ol>
+
+		<h2>3. Getting Started</h2>
+		<h3>Creating Your First Link</h3>
+		<p>To create a new affiliate link:</p>
+		<ol>
+			<li>Go to <strong>Affiliate Links > Add New</strong>.</li>
+			<li>Enter a <strong>Title</strong> for your link (e.g., "My Favorite Product").</li>
+			<li>In the <strong>Affiliate Link Settings</strong> meta box, enter the <strong>Target URL</strong>.</li>
+			<li>Choose the <strong>Redirection Type</strong> (301 is recommended for SEO).</li>
+			<li>Click <strong>Publish</strong>.</li>
+		</ol>
+		<p>Your "pretty link" will be automatically generated based on the title. You can customize the slug in the permalink settings.</p>
+
+		<h2>4. Advanced Features</h2>
+		<h3>Geo-Targeting</h3>
+		<p>Redirect users to different URLs based on their country. This is useful if you have different affiliate links for different regions (e.g., Amazon US vs. Amazon UK).</p>
+		
+		<h3>A/B Testing</h3>
+		<p>Split traffic between multiple target URLs to see which one performs better. You can set the percentage of traffic for each URL.</p>
+
+		<h3>Link Health Check</h3>
+		<p>Go to <strong>Affiliate Links > Health Check</strong> to verify if your target URLs are still active. The plugin will check the response codes and alert you to any broken links.</p>
+
+		<h2>5. Shortcodes</h2>
+		<p>You can insert your affiliate links into posts or pages using the <code>[affiliate_link]</code> shortcode.</p>
+		<pre><code>[affiliate_link slug="my-product" text="Buy Now"]</code></pre>
+		<p>Parameters:</p>
+		<ul>
+			<li><code>id</code>: The ID of the affiliate link post.</li>
+			<li><code>slug</code>: The slug of the affiliate link.</li>
+			<li><code>text</code>: The text to display for the link.</li>
+			<li><code>class</code>: Custom CSS class for the link.</li>
+			<li><code>target</code>: Link target (e.g., <code>_blank</code>).</li>
+		</ul>
+
+		<div class="note">
+			<strong>Note:</strong> Always ensure you are following the terms of service of your affiliate programs when using link cloaking.
+		</div>
+
+		<h2>6. Support</h2>
+		<p>If you need help or have any questions, please contact us through the marketplace support system.</p>
+
+		<div class="footer">
+			&copy; 2026 Custom Affiliate Link Manager. All rights reserved.
+		</div>
+	</div>
+</body>
+</html>
